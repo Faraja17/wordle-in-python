@@ -44,4 +44,5 @@ wordle()
     # fix guess count to start at 1 rather than at 0
     # input validation
     # play again option
+    # randomize secret word
     # refactor with an object-oriented approach

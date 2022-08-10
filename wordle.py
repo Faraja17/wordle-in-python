@@ -10,28 +10,29 @@
     # count of tries +1
 
 def wordle():
+    print("Welcome to Wordle!\n Guess the 5-letter secret word.\n") 
   
-  computer_word = 'apple'
-  
-  guess_count = 0
-  while guess_count < 6:
-    results = ""
-    player_word = input("What is your guess?")
-    for i in range(5):
-      if player_word[i] == computer_word[i]:
-        results += "G"
-      elif player_word[i] in computer_word:
-        results += "Y"
-      else:
-        results += "B"
-    # print(str(guess_count) + "/6 guesses. " + str(results))
-    print(f"{guess_count} /6 guesses. Results: {results}")    
-    # if win; else
-    if results == "GGGGG":
-      print("Congratulations, you won!")
-    else:
-      guess_count += 1
-  print("You have run out of chances!")  
+    computer_word = 'apple'
+    guess_count = 1
+
+    while guess_count < 7:
+        results = ""
+        player_word = input("What is your guess?")
+        for i in range(5):
+            if player_word[i] == computer_word[i]:
+                results += "G"
+            elif player_word[i] in computer_word:
+                results += "Y"
+            else:
+                results += "B"
+            # print(str(guess_count) + "/6 guesses. " + str(results))
+        print(f"{guess_count} /6 guesses. Results: {results}")    
+            # if win; else
+        if results == "GGGGG":
+            print("Congratulations, you won!")
+        else:
+            guess_count += 1
+    print("You have run out of chances!")  
 
 wordle()
 

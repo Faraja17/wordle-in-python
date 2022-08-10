@@ -6,7 +6,10 @@ At the end of our session, we discussed possible improvements, and later, I thou
 
 Goals for improvement:
 <br>&#x2611; fix guess count to start at 1 rather than at 0
-<br>&#x2611; input validation - play again option - refactor with an object-oriented approach
+<br>&#x2611; input validation
+
+- play again option
+- refactor with an object-oriented approach
 
 ## Table of contents
 

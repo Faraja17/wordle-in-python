@@ -1,6 +1,6 @@
 # Wordle in Python
 
-Descripton: This simple game written in Python is a result of my participation in two pair programming sessions. Yesterday, I mostly observed as my partner wrote a version of the game that I did not fully grasp. However, I did come away with a few concepts that helped me to write a more effective pseudocode for myself today. My plan was to start from the beginning and write the game in Python more at my own level. Then, I had an opportunity to pair with fellow Recurser Jing, and we took turns as driver/navigator to successfully write a game at my level that I fully understand.
+Descripton: This simple game written in Python is a result of my participation in two pair programming sessions. Yesterday, I mostly observed as my partner wrote a version of the game that I did not fully grasp. However, I did come away with a few concepts that helped me to write a more effective pseudocode for myself today. My plan was to start from the beginning and write the game in Python, more at my own level. Then, I had an opportunity to pair with fellow Recurser Jing, and we took turns as driver/navigator to successfully write a game at my level that I fully understand.
 
 At the end of our session, we discussed possible improvements, and later, I thought of additonal improvements that I would like to make. I'll document these improvements within this ReadMe and in my commits here.
 

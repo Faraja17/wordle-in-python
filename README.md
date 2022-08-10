@@ -44,7 +44,7 @@ Goals for improvement:
 
 ### Links
 
-- Live Site URL: [Play the game on Replit!](https://replit.com/@jcao7/StainedInsidiousVolume#main.py)
+- Live Site URL: [Play the game on Replit!](https://replit.com/@jcao7/StainedInsidiousVolume#main.py) -Click the green "Run" button and play in the console.
 
 ## My process
 

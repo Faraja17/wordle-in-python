@@ -4,10 +4,9 @@ Descripton: This simple game written in Python is a result of my participation i
 
 At the end of our session, we discussed possible improvements, and later, I thought of additonal improvements that I would like to make. I'll document these improvements within this ReadMe and in my commits here.
 
-Goals for improvement: 
-    - fix guess count to start at 1 rather than at 0
-    - input validation
-    - play again option
+Goals for improvement:
+&#x2611; fix guess count to start at 1 rather than at 0
+&#x2611; input validation - play again option - refactor with an object-oriented approach
 
 ## Table of contents
 
@@ -24,31 +23,26 @@ Goals for improvement:
 
 ## Overview
 
-
-
-
 ### Screenshots
-| <b>Mobile View</b>| 
-|:--:|
+
+|     <b>Mobile View</b>      |
+| :-------------------------: |
 | ![My Solution for Mobile]() |
 
-| <b>Desktop View</b>| 
-|:--:|
+|     <b>Desktop View</b>      |
+| :--------------------------: |
 | ![My Solution for Desktop]() |
 
-| <b>More Screenshots</b> | 
-|:--:|
+|                                                                                                               <b>More Screenshots</b>                                                                                                               |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [![Link to Google Slides](link-to-slides.png)](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146) |
-| [Direct Link to Google Presentation](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146)|
-
+|      [Direct Link to Google Presentation](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146)      |
 
 ### Links
 
 - Live Site URL: [Play the game on Replit!](https://replit.com/@jcao7/StainedInsidiousVolume#main.py) -Click the green "Run" button and play in the console.
 
 ## My process
-
-
 
 ### Built with
 
@@ -57,17 +51,14 @@ Goals for improvement:
 
 ### What I learned
 
-
-
 ### Continued development
-
-
 
 ### Useful resources
 
 - []() - annotation
 - []() - annotation
-- 
+-
+
 ## Author
 
 Faraja Thompson
@@ -78,4 +69,4 @@ Faraja Thompson
 
 ## Acknowledgments
 
-I'd like to acknowledge my son and mentor [DeForestt Thompson](https://github.com/DeForestt).  His steadfast support and encouragement keep me motivated!  Thanks for forcing me to use the command-line, Son <3 <3 <3.
+I'd like to acknowledge my son and mentor [DeForestt Thompson](https://github.com/DeForestt). His steadfast support and encouragement keep me motivated! Thanks for forcing me to use the command-line, Son <3 <3 <3.

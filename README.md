@@ -5,8 +5,8 @@ Descripton: This simple game written in Python is a result of my participation i
 At the end of our session, we discussed possible improvements, and later, I thought of additonal improvements that I would like to make. I'll document these improvements within this ReadMe and in my commits here.
 
 Goals for improvement:
-&#x2611; fix guess count to start at 1 rather than at 0
-&#x2611; input validation - play again option - refactor with an object-oriented approach
+<br>&#x2611; fix guess count to start at 1 rather than at 0
+<br>&#x2611; input validation - play again option - refactor with an object-oriented approach
 
 ## Table of contents
 

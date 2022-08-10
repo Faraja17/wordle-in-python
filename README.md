@@ -44,7 +44,7 @@ Goals for improvement:
 
 ### Links
 
-- Live Site URL: [name of site](URL)
+- Live Site URL: [Play the game on Replit!](https://replit.com/@jcao7/StainedInsidiousVolume#main.py)
 
 ## My process
 

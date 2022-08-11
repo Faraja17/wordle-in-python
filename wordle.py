@@ -17,7 +17,7 @@ def greeting():
 
 def wordle():
   wordList = ["apple", "batch", "house", "sport", "brush"] # random word bank
-  randomNum = randint(0, 5) # random number generator
+  randomNum = randint(0, 4) # random number generator
   computer_word = wordList[randomNum] # selects the word from the wordList that matches the index created by the random number
   guess_count = 1
 

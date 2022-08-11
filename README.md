@@ -47,6 +47,8 @@ Goals for improvement:
 
 ## My process
 
+Jing introduced me to string interpolation. I LOVE it! so much better than having to remember to convert things into strings or integers. It reminds me of the concatenatation method for JS E6.
+
 ### Built with
 
 - Semantic HTML5 markup

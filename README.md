@@ -38,11 +38,11 @@ def greeting():
 
 def wordle():
   wordList = ["apple", "batch", "house", "sport", "brush"]
-  randomNum = randint(0, 5)
+  randomNum = randint(0, 4)
   computer_word = wordList[randomNum]
   guess_count = 1
 
-  while guess_count < 7:
+  while guess_count <= 6:
     results = ""
     player_word = input(f"Guess {guess_count}/6. What is your guess?\n")
     if len(player_word) != 5:

@@ -10,8 +10,7 @@
     # count of tries +1
 
 def greeting():
-  print("\nWelcome to Wordle!\nGuess the 5-letter secret word.\n") 
-
+  print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
 
 def wordle():
   computer_word = 'apple'
@@ -38,12 +37,13 @@ def wordle():
       playAgain()
     else:
       guess_count += 1
-  print(f"You have run out of chances! Secret word: {computer_word}")
+  print(f"You have run out of guesses! Secret word: {computer_word}")
   playAgain()  
 
 def playAgain():
   choice = input("\nPlay again? y or n\n")
   if choice == "y":
+    print("__________\n")
     wordle()
   else:
     print("\nThank you for playing!")

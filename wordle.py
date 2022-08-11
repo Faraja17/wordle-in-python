@@ -16,12 +16,12 @@ def greeting():
   print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
 
 def wordle():
-  wordList = ["apple", "batch", "house", "sport", "brush"]
-  randomNum = randint(0, 5)
-  computer_word = wordList[randomNum]
+  wordList = ["apple", "batch", "house", "sport", "brush"] # random word bank
+  randomNum = randint(0, 5) # random number generator
+  computer_word = wordList[randomNum] # selects the word from the wordList that matches the index created by the random number
   guess_count = 1
 
-  while guess_count < 7:
+  while guess_count <= 6:
     results = ""
     player_word = input(f"Guess {guess_count}/6. What is your guess?\n")
     if len(player_word) != 5:
@@ -34,7 +34,6 @@ def wordle():
           results += "Y"
       else:
           results += "B"
-      # print(str(guess_count) + "/6 guesses. " + str(results))
     print(f"Results: {results}")    
       # if win; else
     if results == "GGGGG":

@@ -53,12 +53,14 @@ Goals for improvement:
 - CSS 3 properties
 
 ### What I learned
+- review of concatenation
+- string interpolation
 
 ### Continued development
 
 ### Useful resources
 
-- []() - annotation
+- [String Interpolation](https://www.programiz.com/python-programming/string-interpolation) - Jing referred me here to learn about string interpolation
 - []() - annotation
 -
 

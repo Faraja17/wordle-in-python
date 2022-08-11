@@ -33,9 +33,19 @@ def wordle():
         # if win; else
       if results == "GGGGG":
         print("Congratulations, you won!")
+        playAgain()
       else:
         guess_count += 1
-    print("You have run out of chances!")  
+    print(f"You have run out of chances! Secret word: {computer_word}")
+    playAgain()  
+
+def playAgain():
+  choice = input("\nPlay again? y or n\n")
+  if choice == "y":
+    wordle()
+  else:
+    print("\nThank you for playing!")
+    exit()
 
 wordle()
 

@@ -49,6 +49,8 @@ Goals for improvement:
 
 Jing introduced me to string interpolation. I LOVE it! so much better than having to remember to convert things into strings or integers. It reminds me of the concatenatation method for JS E6.
 
+I am very pleased with how easily I was able to add input validation. This means that I've retained what I learned working on my TTT game!
+
 ### Built with
 
 - Semantic HTML5 markup

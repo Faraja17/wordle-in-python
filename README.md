@@ -8,7 +8,7 @@ Goals for improvement:
 <br>&#x2611; fix guess count to start at 1 rather than at 0
 <br>&#x2611; input validation
 <br>&#x2611; play again option
-<br>&#11036; randomize secret word
+<br>&#x2611; randomize secret word
 <br>&#11036; refactor with an object-oriented approach
 
 ## Table of contents

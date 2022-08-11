@@ -6,14 +6,19 @@
     # if a letter in guess is also in word return the results list with the place of that letter as Y
         # + return n/6 tries statement
     # if a letter in guess is also in word + is in the correct spot return the results list with the place of that letter as G
-    # else return the results list wit all Bs
+    # else return the results list with all Bs
     # count of tries +1
+
+from random import randint
+
 
 def greeting():
   print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
 
 def wordle():
-  computer_word = 'apple'
+  wordList = ["apple", "batch", "house", "sport", "brush"]
+  randomNum = randint(0, 5)
+  computer_word = wordList[randomNum]
   guess_count = 1
 
   while guess_count < 7:

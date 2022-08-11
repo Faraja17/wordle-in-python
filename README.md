@@ -14,7 +14,7 @@ Goals for improvement:
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshots](#screenshots)
+  - [The Code](#the-code)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,20 +26,59 @@ Goals for improvement:
 
 ## Overview
 
-### Screenshots
+### The Code
 
-|     <b>Mobile View</b>      |
-| :-------------------------: |
-| ![My Solution for Mobile]() |
+```python
 
-|     <b>Desktop View</b>      |
-| :--------------------------: |
-| ![My Solution for Desktop]() |
+from random import randint
 
-|                                                                                                               <b>More Screenshots</b>                                                                                                               |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![Link to Google Slides](link-to-slides.png)](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146) |
-|      [Direct Link to Google Presentation](https://docs.google.com/presentation/d/e/2PACX-1vROkxVyUGrL-H86BwdRjp2-pR0OU4mqIA1PmLdf0vh8ypV4msyidQBM9mZgJLeFc7AsDSrrOJjhP8Oe/pub?start=false&loop=false&delayms=3000&slide=id.g1270c083a6c_0_146)      |
+
+def greeting():
+  print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
+
+def wordle():
+  wordList = ["apple", "batch", "house", "sport", "brush"]
+  randomNum = randint(0, 5)
+  computer_word = wordList[randomNum]
+  guess_count = 1
+
+  while guess_count < 7:
+    results = ""
+    player_word = input(f"Guess {guess_count}/6. What is your guess?\n")
+    if len(player_word) != 5:
+      print("Guess must have exactly 5 letters. Please try again.")
+      continue
+    for i in range(5):
+      if player_word[i] == computer_word[i]:
+          results += "G"
+      elif player_word[i] in computer_word:
+          results += "Y"
+      else:
+          results += "B"
+      # print(str(guess_count) + "/6 guesses. " + str(results))
+    print(f"Results: {results}")
+      # if win; else
+    if results == "GGGGG":
+      print("Congratulations, you won!")
+      playAgain()
+    else:
+      guess_count += 1
+  print(f"You have run out of guesses! Secret word: {computer_word}")
+  playAgain()
+
+def playAgain():
+  choice = input("\nPlay again? y or n\n")
+  if choice == "y":
+    print("__________\n")
+    wordle()
+  else:
+    print("\nThank you for playing!")
+    exit()
+
+greeting()
+wordle()
+
+```
 
 ### Links
 

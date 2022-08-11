@@ -53,8 +53,7 @@ I am very pleased with how easily I was able to add input validation. This means
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS 3 properties
+- Python 3
 
 ### What I learned
 - review of concatenation

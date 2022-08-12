@@ -16,8 +16,8 @@ def greeting():
   print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
 
 def wordle():
-  wordList = ["apple", "batch", "house", "sport", "brush"] # random word bank
-  randomNum = randint(0, 4) # random number generator
+  wordList = ["apple", "batch", "house", "sport", "brush", "peace", "trout", "break", "horse", "globe"] # random word bank
+  randomNum = randint(0, 9) # random number generator
   computer_word = wordList[randomNum] # selects the word from the wordList that matches the index created by the random number
   guess_count = 1
 

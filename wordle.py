@@ -13,7 +13,15 @@ from random import randint
 
 
 def greeting():
-  print("\nWelcome to Wordle!\n\nTo win: Guess the 5-letter secret word.\n\nResults Key: B = no match, Y = match, G = match + correct spot\n__________\n")
+  print("""
+
+Welcome to Wordle!
+
+To win: Guess the 5-letter secret word.
+
+Results Key: B = no match, Y = match, G = match + correct spot
+  
+  """)
 
 def wordle():
   wordList = ["apple", "batch", "house", "sport", "brush", "peace", "trout", "break", "horse", "globe"] # random word bank
